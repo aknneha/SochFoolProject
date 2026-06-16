@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SochFool — Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAVBAR ═══════════════ -->
+  <nav id="sfNavbar" class="navbar navbar-expand-lg navbar-light bg-white sf-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">SOCHFOOL</a>
+
+      <button class="navbar-toggler border-0" type="button"
+              data-bs-toggle="collapse" data-bs-target="#sfNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="sfNav">
+        <ul class="navbar-nav align-items-center gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="trips.html">Trips</a></li>
+          <li class="nav-item"><a class="nav-link" href="merch.html">Merch</a></li>
+          <li class="nav-item ms-3">
+            <div class="form-check form-switch mb-0">
+              <input class="form-check-input" type="checkbox" id="darkModeToggle" />
+              <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═════════════════════════════ HERO / WHY THIS WEBSITE ═ -->
+  <section class="sf-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <p class="sf-merch-badge d-inline-block mb-3">A little corner of the internet</p>
+          <h1 class="mb-4">
+            Thoughts, trips &amp; tiny<br>
+            <span class="text-accent">everyday moments.</span>
+          </h1>
+          <p class="fs-5 mb-4">
+            Honestly? I just wanted to create a little corner on the internet that feels like mine.
+            This website started as a fun side thing — somewhere to collect all my mini vlogs, hauls,
+            and little life bits beyond YouTube.
+          </p>
+          <p class="mb-5">
+            As the channel grows, I'll keep updating this space with more content, thoughts,
+            and maybe some chaotic behind-the-scenes. It's not perfect, but that's kind of the point.
+            Just like the channel, this site is a work in progress — and that's what makes it fun.
+          </p>
+          <a href="about.html" class="sf-btn">Get to know me →</a>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <img src="assets/3.jpg" alt="Neha" class="img-fluid rounded-3 shadow"
+               style="max-height:420px; width:100%; object-fit:cover;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ CAROUSEL ═════════════ -->
+  <div id="sfCarousel" class="carousel slide sf-carousel" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#sfCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#sfCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#sfCarousel" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/2.jpg" class="d-block w-100" alt="Slide 1" />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/1.jpg" class="d-block w-100" alt="Slide 2" />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/5.jpg" class="d-block w-100" alt="Slide 3" />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#sfCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#sfCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- ═══════════════════════════ ABOUT SOCHFOOL ═══════════ -->
+  <section class="sf-section-alt">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <h2 class="mb-4">About SochFool 🎥</h2>
+          <p class="mb-4">
+            Welcome to <strong>SochFool</strong> — a digital space where I share raw thoughts,
+            mini vlogs, shopping hauls, and everyday stories that make life feel real.
+            This channel is less about perfection and more about moments that matter.
+          </p>
+          <p>
+            If you're someone who loves to <strong>live, love, and explore</strong> the little
+            things — you're in the right place. Subscribe, chill, and vibe with me 🌍✨
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:32px;">
+            <h3 class="mb-3" style="color:var(--accent);">Why SochFool?</h3>
+            <p>
+              The name comes from something I've felt often — <span class="highlight">the more you
+              overthink, the more foolish you feel.</span> It's a reminder that not everything needs
+              to be so serious or perfect. Overthinking messes things up more than it helps, and
+              sometimes we just need to live, not overanalyze.
+            </p>
+            <p class="mt-3">
+              This space is for my random ideas, fun moments, small vlogs, and little things I'd
+              otherwise overthink before sharing. SochFool is just me telling myself (and maybe you
+              too): don't take life too seriously — just create, share, and move on. ✨
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ CONTENT CARDS ════════ -->
+  <section class="sf-section">
+    <div class="container">
+      <h2 class="mb-5 text-center">What You'll Find Here</h2>
+      <div class="sf-card-grid">
+
+        <div class="sf-card">
+          <img src="assets/1.jpg" alt="Digital Diary" />
+          <div class="sf-card-body">
+            <h5>Digital Diary</h5>
+            <p>Not a big story — just me talking, living, and figuring stuff out.</p>
+            <a href="https://www.youtube.com" class="sf-btn" target="_blank" rel="noopener">Go to YouTube ↗</a>
+          </div>
+        </div>
+
+        <div class="sf-card">
+          <img src="assets/2.jpg" alt="Hauls" />
+          <div class="sf-card-body">
+            <h5>Random Shopping Hauls</h5>
+            <p>Went out for 'just one thing' and came back with a little more. Typical.</p>
+            <a href="https://www.youtube.com" class="sf-btn" target="_blank" rel="noopener">Go to YouTube ↗</a>
+          </div>
+        </div>
+
+        <div class="sf-card">
+          <img src="assets/4.jpg" alt="Mini Vlogs" />
+          <div class="sf-card-body">
+            <h5>Mini Vlogs</h5>
+            <p>Random little parts of my day that felt nice to look back on.</p>
+            <a href="https://www.youtube.com" class="sf-btn" target="_blank" rel="noopener">Go to YouTube ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ PHOTO COLLAGE ════════ -->
+  <div class="sf-collage">
+    <img src="assets/1.jpg" alt="Memory 1" />
+    <img src="assets/2.jpg" alt="Memory 2" />
+    <img src="assets/3.jpg" alt="Memory 3" />
+    <img src="assets/4.jpg" alt="Memory 4" />
+    <img src="assets/5.jpg" alt="Memory 5" />
+    <img src="assets/6.jpg" alt="Memory 6" />
+    <img src="assets/7.jpg" alt="Memory 7" />
+    <img src="assets/8.jpg" alt="Memory 8" />
+  </div>
+
+  <!-- ═══════════════════════════════ SOCIALS ══════════════ -->
+  <section class="sf-section text-center">
+    <div class="container">
+      <h2 class="mb-2">🤝 Let's Connect</h2>
+      <p class="mb-4">Follow me and be part of the chaos!</p>
+      <div class="sf-socials">
+        <a href="https://www.youtube.com" class="sf-social-link" target="_blank" rel="noopener">
+          📺 YouTube
+        </a>
+        <a href="#" class="sf-social-link">📸 Instagram</a>
+        <a href="#" class="sf-social-link">🐦 Twitter / X</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════ -->
+  <footer class="sf-footer">
+    <span class="brand">SOCHFOOL</span>
+    <div class="sf-footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="trips.html">Trips</a>
+      <a href="merch.html">Merch</a>
+    </div>
+    <p>🌍 Live · Love · Explore</p>
+    <p style="margin-top:10px;">&copy; 2025 SochFool. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

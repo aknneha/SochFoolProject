@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trip Diaries | SochFool</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAVBAR ═══════════════ -->
+  <nav id="sfNavbar" class="navbar navbar-expand-lg navbar-light bg-white sf-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">SOCHFOOL</a>
+
+      <button class="navbar-toggler border-0" type="button"
+              data-bs-toggle="collapse" data-bs-target="#sfNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="sfNav">
+        <ul class="navbar-nav align-items-center gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="trips.html">Trips</a></li>
+          <li class="nav-item"><a class="nav-link" href="merch.html">Merch</a></li>
+          <li class="nav-item ms-3">
+            <div class="form-check form-switch mb-0">
+              <input class="form-check-input" type="checkbox" id="darkModeToggle" />
+              <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════ PAGE HEADER ══════════ -->
+  <div class="sf-page-header">
+    <h1>Trip Diaries</h1>
+    <p>Salt in the air, stories in my heart — little pieces of every place I've wandered to.</p>
+  </div>
+
+  <!-- ═══════════════════════════════ TRIP CARDS ═══════════ -->
+  <section class="sf-section">
+    <div class="container">
+      <div class="sf-card-grid">
+
+        <!-- Card 1 -->
+        <div class="sf-card">
+          <img src="assets/2.jpg" alt="Goa Trip" />
+          <div class="sf-card-body">
+            <h5>Goa, 2024</h5>
+            <p>
+              Salt in the air, sand in my hair 🌊 This trip was all about sun, freedom,
+              and chai with strangers turned friends.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="sf-card">
+          <img src="assets/3.jpg" alt="Himachal" />
+          <div class="sf-card-body">
+            <h5>Himachal Escape</h5>
+            <p>
+              Mountains don't judge your overthinking. They just let you be. I found
+              peace here, in between cold mornings and maggi breaks.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="sf-card">
+          <img src="assets/7.jpg" alt="Kolkata" />
+          <div class="sf-card-body">
+            <h5>City of Joy</h5>
+            <p>
+              Kolkata was chaotic, nostalgic, poetic. I walked through narrow lanes and
+              felt like I'd lived here in another life.
+            </p>
+          </div>
+        </div>
+
+        <!-- Add more cards below as you travel -->
+        <!--
+        <div class="sf-card">
+          <img src="assets/your-photo.jpg" alt="Trip Name" />
+          <div class="sf-card-body">
+            <h5>Trip Name</h5>
+            <p>Your thoughts, vibe, or small memory from this place.</p>
+          </div>
+        </div>
+        -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ PHOTO COLLAGE ════════ -->
+  <div class="sf-collage">
+    <img src="assets/1.jpg" alt="Memory" />
+    <img src="assets/2.jpg" alt="Memory" />
+    <img src="assets/4.jpg" alt="Memory" />
+    <img src="assets/5.jpg" alt="Memory" />
+    <img src="assets/6.jpg" alt="Memory" />
+    <img src="assets/8.jpg" alt="Memory" />
+  </div>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════ -->
+  <footer class="sf-footer">
+    <span class="brand">SOCHFOOL</span>
+    <div class="sf-footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="trips.html">Trips</a>
+      <a href="merch.html">Merch</a>
+    </div>
+    <p>🌍 Live · Love · Explore</p>
+    <p style="margin-top:10px;">&copy; 2025 SochFool. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
